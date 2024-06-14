@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+}
+
+body {
+    font-family: Roboto;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e6eed6;
+}
+
+header {
+    display: flex;
+    min-width: 100vw;
+    justify-content: center;
+}
+
+header h1 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    background-color: #bbc5aa;
+}
+
+#text {
+    font-size: large;
+}
+
+#daysLeft {
+    color: #a72608;
+}
