@@ -1,6 +1,6 @@
 const daysLeftOut = document.getElementById('daysLeft')
 
-const timerEndDate = new Date("06-17-2024")
+const timerEndDate = new Date("07-19-2024")
 
 window.onload = function() {
     console.log('onload called')
